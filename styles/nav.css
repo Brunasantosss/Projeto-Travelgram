@@ -19,6 +19,14 @@ nav ul li:last-child img {
     height: 40px
 }
 
+nav li:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--brand-color);
+    color: var(--brand-color);
+}
+
+
+
 .bg-surface-color{
     background-color: var(--surface-color);
 }
