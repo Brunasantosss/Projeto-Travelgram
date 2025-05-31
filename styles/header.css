@@ -1,9 +1,7 @@
+/* Corrigido */
 header {
     padding-block: 32px;
     font: var(--text-md);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 header .container {
@@ -19,16 +17,16 @@ header .container {
     border-radius: 50%;
 }
 
-#profile {
+.profile {
     display: flex;
     gap: 32px;
 }
 
-#profile > div {
+.profile > div {
     max-width: 384px;
 }
 
-#profile h1 {
+.profile h1 {
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
